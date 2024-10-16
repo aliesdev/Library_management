@@ -19,5 +19,6 @@ public class Member : IUser
 
     public void DisplayUser()
     { 
+        Console.WriteLine($"Name: {Name} , Email: {Email}");
     }
 }
